@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- header Start  -->
+    <header class="container mx-auto mt-10 px-10">
+        <div class="navbar bg-[#1090d81a]">
+            <div class="flex-1">
+                <div class="flex-1">
+                    <h2 class="text-4xl font-bold">Interactive </h2>
+                    <h4 class="text-3xl font-semibold">Geometry Genius</h4>
+                </div>
+            </div>
+            <div class="flex-none">
+                <button class="bg-[#1090D8] rounded-lg py-2 px-4">Blog</button>
+            </div>
+        </div>
+    </header>
+    <!-- header End  -->
+
+    <main>
+        <div class="flex container px-10">
+            <div class="flex-1">
+                <div class="grid grid-cols-3 gap-6">
+                    <!-- Triangle box -->
+                    <div class="card  bg-[#FBBCED] shadow-xl mt-12 ">
+                        <figure><img class="mt-12" src="/images/triangle.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class=" text-center text-2xl font-bold">Triangle</h2>
+                            <p class="text-center text-sm font-medium">Area (A) = 0.5 x b x h</p>
+                            <p class="mt-2">
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg bg-[#F1F1F1]" placeholder="Base">
+                                <span class="ml-3">cm</span>
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg ml-4 bg-[#F1F1F1]" placeholder="Height">
+                                <span class="ml-3">cm</span>
+                            </p>
+                            <p class="text-center text-xl my-2 ">Area: <span id="">00</span></p>
+                            <div class="card-actions ">
+                                <button class="btn btn-primary w-full">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Rectangle box -->
+                    <div class="card bg-slate-300  shadow-xl mt-12 ">
+                        <figure><img class="mt-12" src="/images/rectangle.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class=" text-center text-2xl font-bold">Rectangle</h2>
+                            <p class="text-center text-sm font-medium">Area (A) = w x I</p>
+                            <p class="mt-2">
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg bg-[#F1F1F1]" placeholder="Base">
+                                <span class="ml-3">cm</span>
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg ml-4 bg-[#F1F1F1]" placeholder="Height">
+                                <span class="ml-3">cm</span>
+                            </p>
+                            <p class="text-center text-xl my-2 ">Area: <span id="">00</span></p>
+                            <div class="card-actions ">
+                                <button class="btn btn-primary w-full">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Parallelogram box -->
+                    <div class="card  bg-red-300 shadow-xl mt-12 ">
+                        <figure><img class="mt-12" src="/images/Parallelogram.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class=" text-center text-2xl font-bold">Parallelogram</h2>
+                            <p class="text-center text-sm font-medium">Area (A) = b x h</p>
+                            <p class="mt-2">
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg bg-[#F1F1F1]" placeholder="Base">
+                                <span class="ml-3">cm</span>
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg ml-4 bg-[#F1F1F1]" placeholder="Height">
+                                <span class="ml-3">cm</span>
+                            </p>
+                            <p class="text-center text-xl my-2 ">Area: <span id="">00</span></p>
+                            <div class="card-actions ">
+                                <button class="btn btn-primary w-full">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Rhombus box -->
+                    <div class="card  bg-[#69C7F0] shadow-xl mt-12 ">
+                        <figure><img class="mt-12" src="/images/Rhombus.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class=" text-center text-2xl font-bold">Rhombus</h2>
+                            <p class="text-center text-sm font-medium">Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
+                            <p class="mt-2">
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg bg-[#F1F1F1]" placeholder="Base">
+                                <span class="ml-3">cm</span>
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg ml-4 bg-[#F1F1F1]" placeholder="Height">
+                                <span class="ml-3">cm</span>
+                            </p>
+                            <p class="text-center text-xl my-2 ">Area: <span id="">00</span></p>
+                            <div class="card-actions ">
+                                <button class="btn btn-primary w-full">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pentagon box -->
+                    <div class="card  bg-lime-400 shadow-xl mt-12 ">
+                        <figure><img class="mt-12" src="/images/Pentagon.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class=" text-center text-2xl font-bold">Pentagon</h2>
+                            <p class="text-center text-sm font-medium">Area (A) = 0.5 x p x b</p>
+                            <p class="mt-2">
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg bg-[#F1F1F1]" placeholder="Base">
+                                <span class="ml-3">cm</span>
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg ml-4 bg-[#F1F1F1]" placeholder="Height">
+                                <span class="ml-3">cm</span>
+                            </p>
+                            <p class="text-center text-xl my-2 ">Area: <span id="">00</span></p>
+                            <div class="card-actions ">
+                                <button class="btn btn-primary w-full">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ellipse box -->
+                    <div class="card  bg-amber-300 shadow-xl mt-12 ">
+                        <figure><img class="mt-12" src="/images/Ellipse.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class=" text-center text-2xl font-bold">Ellipse</h2>
+                            <p class="text-center text-sm font-medium">Area (A) = π x ab</p>
+                            <p class="mt-2">
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg bg-[#F1F1F1]" placeholder="Base">
+                                <span class="ml-3">cm</span>
+                                <input type="text" name="" id="" class="w-[80px] p-2 rounded-lg ml-4 bg-[#F1F1F1]" placeholder="Height">
+                                <span class="ml-3">cm</span>
+                            </p>
+                            <p class="text-center text-xl my-2 ">Area: <span id="">00</span></p>
+                            <div class="card-actions ">
+                                <button class="btn btn-primary w-full">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[400px]">
+                <h5 class="underline text-center text-xl">Area Calculation</h5>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
